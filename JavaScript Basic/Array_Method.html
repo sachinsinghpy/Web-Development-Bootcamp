@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Method in JavaScript</title>
+</head>
+<script>
+    console.log("JavaScript Method Array Method");
+
+    let arr = [4,45,34,true , "Sachin"];
+
+    // for(let i = 0 ;i<arr.length ;i++){
+    //     console.log(arr[i]);
+    // }
+
+
+    // for (const element of arr) {
+    //     console.log(element)
+    // }
+
+    let numbers = [1,2,3];
+
+    const square = (a)=>{
+        return a*a;
+    }
+
+    let newArr = numbers.map(square);
+    console.log(newArr);
+
+    let scores = [46,12,64,67,89,90,80];
+
+    const gt60 = (a)=>{
+        if(a>60) return true;
+
+        return false;
+    }
+
+    console.log(scores.filter(gt60));
+
+
+</script>
+<body>
+    
+</body>
+</html>

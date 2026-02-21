@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors </title>
+    <style>
+
+        h1 ,h2 ,.big{
+            margin: 0;
+            padding: 0;
+            background: black;
+        }
+
+        /* p{
+            color: red;
+        } */
+        .green{
+            color: green;
+        }
+        .red{
+            color: red;
+        }
+        .small{
+            font-size: 12px;
+        }
+        .big{
+            font-size: 73px;
+        }
+
+        #p1{
+            background: yellow;
+        }
+
+        div p{ /*Desendent Selector */
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="mainElement" class="green big">CSS Selectors</h1>
+    <p id="p1" class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusantium voluptas ducimus, expedita molestias vel nobis repellendus odio fugiat temporibus eaque dolore rerum illo animi aliquam nulla tempore. Adipisci in sapiente et praesentium assumenda ea? Dolor totam ipsum repudiandae quasi amet eligendi ducimus ratione dolorem.</p>
+    <h2 class="red small">Element Selectors</h2>
+    <p>Elemet selector selecs all the elelments</p>
+
+    <div>
+        <p>This is a paragraph inside a div.</p>
+    </div>
+</body>
+</html>
